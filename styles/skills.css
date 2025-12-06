@@ -1,0 +1,202 @@
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px;
+}
+
+.card-title{
+    border: 1px solid rgb(69, 69, 69);
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.card-title i{
+    color: white;
+}
+
+.skills-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.skills-box-1{
+    border: 1px solid rgb(69, 69, 69);
+    padding: 30px;
+    border-radius: 10px;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-box-1:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.skills-content{
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
+.skills-content span{
+    color: white;
+    font-weight: 300;
+}
+
+.skills-content i{
+    color: var(--main-color);
+    font-size: 2rem;
+}
+
+.skills-content-tailwind{
+    color: var(--main-color);
+    font-size: 2rem;
+    display: flex;
+}
+
+.skills-content-tailwind span{
+    color: white;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.skills-content-redux{
+    color: var(--main-color);
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
+.skills-content-redux img{
+    margin-top: 5px;
+}
+
+.skills-content-redux span{
+    color: white;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.skills-content-express{
+    color: var(--main-color);
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
+.skills-content-express span{
+    color: white;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.skills-content-mysql{
+    color: var(--main-color);
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
+.skills-content-mysql span{
+    color: white;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.skills-content-mongodb{
+    color: var(--main-color);
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
+.skills-content-mongodb img{
+    margin-top: 5px;
+}
+
+.skills-content-mongodb span{
+    color: white;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.skills-content-vscode{
+    color: var(--main-color);
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
+.skills-content-vscode img{
+    margin-top: 5px;
+}
+
+.skills-content-vscode span{
+    color: white;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.skills-content-netlify{
+    color: var(--main-color);
+    font-size: 2rem;
+    display: flex;
+    justify-content: start;
+}
+
+.skills-content-netlify img{
+    margin-top: 5px;
+}
+
+.skills-content-netlify span{
+    color: white;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.skills-percentage{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 10px;
+    /* border: 1px solid rgb(69, 69, 69); */
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 500;
+    padding: 3px 10px;
+}
+
+.skills-bar{
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(69, 69, 69);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.skills-bar span{
+    background-color: white;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 30px;
+}
+
+@media(max-width: 576px){
+  .skills-box{
+    grid-template-columns: 1fr;
+  }
+  .skills{
+    padding: 25px;
+  }
+}
