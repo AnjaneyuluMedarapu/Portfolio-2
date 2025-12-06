@@ -195,8 +195,33 @@
 @media(max-width: 576px){
   .skills-box{
     grid-template-columns: 1fr;
-  }
+    }
   .skills{
     padding: 25px;
-  }
+    }
+  .skills-content span{
+    font-size: 25px;
+    }
+    .skills-content-tailwind span{
+    font-size: 25px;
+    }
+    .skills-content-redux span{
+    font-size: 25px;
+    }
+    .skills-content-express span{
+    font-size: 25px;
+    }
+    .skills-content-mysql span{
+    font-size: 25px;
+    }
+    .skills-content-mongodb span{
+    font-size: 25px;
+    }
+    .skills-content-vscode span{
+        font-size: 25px;
+    }
+    .skills-content-netlify span{
+    font-size: 25px;
+    }
+
 }
